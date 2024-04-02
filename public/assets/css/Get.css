@@ -1,0 +1,80 @@
+.get-in-touch-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: transparent; /* Update the background color to black */
+  border-radius: 5px;
+}
+
+label {
+  color: black; /* Update the label text color to yellow */
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+input[type='text'],
+input[type='email'],
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid black; /* Update the border color to yellow */
+  border-radius: 0.25rem;
+  background-color: transparent; /* Make the background transparent */
+  color: black; /* Update the text color to yellow */
+}
+
+button[type='submit'] {
+  background-color: white; /* Update the button background color to yellow */
+  color: black; /* Update the button text color to black */
+  padding: 0.5rem 1rem;
+  border: 10%;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  .get-in-touch-form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: black; /* Update the background color to black */
+    border-radius: 5px;
+  }
+
+  label {
+    color: black; /* Update the label text color to yellow */
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid black; /* Update the border color to yellow */
+    border-radius: 0.25rem;
+    background-color: transparent; /* Make the background transparent */
+    color: black; /* Update the text color to yellow */
+  }
+
+  button[type='submit'] {
+    background-color: white; /* Update the button background color to yellow */
+    color: black; /* Update the button text color to black */
+    padding: 0.5rem 1rem;
+    border: 1px solid black; /* Add a black border to the button */
+    border-radius: 0.25rem;
+    cursor: pointer;
+  }
+
+  @media (max-width: 600px) {
+    .get-in-touch-form {
+      padding: 1rem;
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  .get-in-touch-form {
+    padding: 1rem;
+  }
+}
